@@ -1,0 +1,5 @@
+Module:
+	- route -> role.php
+	- Role/RoleController
+	- role
+		- danh sach cac view cua chuc nang nay

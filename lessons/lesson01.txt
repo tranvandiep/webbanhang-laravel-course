@@ -1,0 +1,9 @@
+Nội dung trong video này:
+- Tạo dự án mẫu bằng Laravel
+- Kích hoạt Authentication (Login & Register) trong Laravel
+- Chỉnh sửa database cho phù hợp vs dự án Laravel
+- Tạo CSDL dữ bằng laravel (tables)
+
+Next Videos:
+- Tích hợp template bootstrap (admin) vào dự án Laravel
+- Chỉnh sửa trang login & register -> Đẹp
