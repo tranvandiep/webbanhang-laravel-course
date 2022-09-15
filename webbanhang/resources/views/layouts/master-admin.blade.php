@@ -14,6 +14,19 @@
     <!-- Custom CSS -->
     <link href="{{ asset('themes/admin/css/style.min.css') }}" rel="stylesheet">
 
+    <style type="text/css">
+        nav {
+            margin-top: 30px;
+        }
+
+        nav .justify-between {
+            display: none;
+        }
+
+        nav svg {
+            max-width: 30px !important;
+        }
+    </style>
     @yield('css')
 </head>
 

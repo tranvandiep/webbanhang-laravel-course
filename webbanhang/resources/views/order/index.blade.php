@@ -42,7 +42,7 @@ $title = "Quản Lý Đơn Hàng";
                 <td>
                     @if($item->status == 0)
                         <button class="btn btn-success" onclick="updateItem({{ $item->id }}, 1)">Appove</button>
-                        <button class="btn btn-danger" onclick="updateItem({{ $item->id }}, -1)">Cancel</button>
+                        <button class="btn btn-danger" onclick="updateItem({{ $item->id }}, 2)">Cancel</button>
                     @endif
                     <a href="{{ route('order.detail') }}?id={{ $item->id }}"><button class="btn btn-info">Details</button></a>
                     <button class="btn btn-danger" onclick="deleteItem({{ $item->id }})">Delete</button>
