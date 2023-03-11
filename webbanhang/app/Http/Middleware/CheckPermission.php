@@ -17,10 +17,10 @@ class CheckPermission
      */
     public function handle(Request $request, Closure $next)
     {
-        if(Auth::user()->role_id != 1) {
+        /*if(Auth::user()->role_id != 1) {
             //Reject
             return redirect()->route('home_index');
-        }
+        }*/
         return $next($request);
     }
 }
